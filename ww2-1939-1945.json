@@ -1,0 +1,524 @@
+{
+  "meta": {
+    "title_tr": "II. Dünya Savaşı Türk ve Müttefik Şifre Belgeleri (1939–1945): 1877 Osmanlı Sıfırsız 81 Hücreli Şifre Sisteminin 1939 Cumhuriyet «YASA» Miftâhındaki Sürekliliği, 1940 RAF Meteoroloji Şifresi ve 1942 İskenderiye Çözülmemiş Telsiz Şifreleri",
+    "title_en": "WWII Turkish & Allied Archival Cipher Corpus (1939–1945): Continuity of the 1877 Ottoman Zero-Free 81-Cell Cipher in the 1939 Republican «YASA» Key, 1940 RAF Sliding-Strip Weather Cipher, and 1942 Alexandria Undeciphered Radio Ciphers",
+    "archives_surveyed": [
+      "Cumhuriyet Arşivi (BCA 30-10-0-0 & 30-1-0-0)",
+      "MSB Askerî Tarih Arşivi (ATASE 110-9-1-14)",
+      "Dışişleri Bakanlığı Türk Diplomatik Arşivi (TDA 501–585)"
+    ],
+    "total_catalog_hits_1939_1945": 149,
+    "generated_at": "2026-11-18"
+  },
+  "yasa_1939_cipher_key": {
+    "shelfmark": "BCA, 30-10-0-0, 65-435-9",
+    "date": "1939-07-21 (active 1939-07-26)",
+    "declassified": "2025-07-10",
+    "law": "81 zero-free 2-digit numbers (11..99 \\ *0); dual homophones share identical units digit (A=12/52, O=27/87...); 6 word-space nulls (Fasılalar = 15, 26, 37, 48, 59, 91) step by +11 along main diagonal; transmitted as 4-digit groups.",
+    "letters_to_codes": {
+      "A": [
+        12,
+        52
+      ],
+      "B": [
+        17,
+        67
+      ],
+      "C": [
+        23,
+        53
+      ],
+      "Ç": [
+        14
+      ],
+      "D": [
+        28,
+        78
+      ],
+      "E": [
+        19,
+        89
+      ],
+      "F": [
+        21,
+        81
+      ],
+      "G": [
+        25,
+        75
+      ],
+      "H": [
+        11,
+        41
+      ],
+      "I": [
+        32,
+        72
+      ],
+      "İ": [
+        24,
+        64
+      ],
+      "J": [
+        29
+      ],
+      "K": [
+        35,
+        85
+      ],
+      "L": [
+        31,
+        51
+      ],
+      "M": [
+        34,
+        94
+      ],
+      "N": [
+        44,
+        84
+      ],
+      "O": [
+        27,
+        87
+      ],
+      "Ö": [
+        39,
+        69
+      ],
+      "P": [
+        42
+      ],
+      "R": [
+        45,
+        95
+      ],
+      "S": [
+        65
+      ],
+      "Ş": [
+        16,
+        96
+      ],
+      "T": [
+        18,
+        68
+      ],
+      "U": [
+        46,
+        86
+      ],
+      "Ü": [
+        63,
+        73
+      ],
+      "V": [
+        57,
+        97
+      ],
+      "Y": [
+        83,
+        93
+      ],
+      "Z": [
+        58,
+        98
+      ],
+      "Virgül": [
+        88
+      ],
+      "Q": [
+        55
+      ],
+      "W": [
+        66
+      ],
+      "X": [
+        77
+      ],
+      "Fasıla": [
+        15,
+        26,
+        37,
+        48,
+        59,
+        91
+      ]
+    },
+    "grid_81": {
+      "12": "A",
+      "52": "A",
+      "17": "B",
+      "67": "B",
+      "23": "C",
+      "53": "C",
+      "14": "Ç",
+      "28": "D",
+      "78": "D",
+      "19": "E",
+      "89": "E",
+      "21": "F",
+      "81": "F",
+      "25": "G",
+      "75": "G",
+      "11": "H",
+      "41": "H",
+      "32": "I",
+      "72": "I",
+      "24": "İ",
+      "64": "İ",
+      "29": "J",
+      "35": "K",
+      "85": "K",
+      "31": "L",
+      "51": "L",
+      "34": "M",
+      "94": "M",
+      "44": "N",
+      "84": "N",
+      "27": "O",
+      "87": "O",
+      "39": "Ö",
+      "69": "Ö",
+      "42": "P",
+      "45": "R",
+      "95": "R",
+      "65": "S",
+      "16": "Ş",
+      "96": "Ş",
+      "18": "T",
+      "68": "T",
+      "46": "U",
+      "86": "U",
+      "63": "Ü",
+      "73": "Ü",
+      "57": "V",
+      "97": "V",
+      "83": "Y",
+      "93": "Y",
+      "58": "Z",
+      "98": "Z",
+      "88": "Virgül",
+      "55": "Q",
+      "66": "W",
+      "77": "X",
+      "15": "Fasıla",
+      "26": "Fasıla",
+      "37": "Fasıla",
+      "48": "Fasıla",
+      "59": "Fasıla",
+      "91": "Fasıla",
+      "13": "",
+      "22": "",
+      "33": "",
+      "36": "",
+      "38": "",
+      "43": "",
+      "47": "",
+      "49": "",
+      "54": "",
+      "56": "",
+      "61": "",
+      "62": "",
+      "71": "",
+      "74": "",
+      "76": "",
+      "79": "",
+      "82": "",
+      "92": "",
+      "99": ""
+    },
+    "sample_ciphertext": "1526 9137 1934 2445 5991 1231 7244 7832 5991 5789 3748 5284 5112 9672 3128 7237 1526 5948",
+    "sample_plaintext": "EMİR ALINDI VE ANLAŞILDI",
+    "wartime_successors": [
+      "YASA (26.07.1939)",
+      "GÜVEN (1942–1943)",
+      "UFUK (07.10.1943 – 05.01.1945)",
+      "ÇELİK (05.01.1945+)"
+    ]
+  },
+  "alexandria_1942_undeciphered_radio_ciphers": {
+    "shelfmark": "MSB ATASE, 110-9-1-14, 2-0-125",
+    "telegram_no_142": {
+      "origin": "İskenderiye / MTCI",
+      "date_received": "1942-04-15 03:07–03:15",
+      "header_indicator": "27/172360",
+      "dtg_trailer": "1346 C / 14 (14 April 1942, 13:46 GMT+3)",
+      "group_count": 25,
+      "groups": [
+        "0419",
+        "0926",
+        "0774",
+        "0230",
+        "5648",
+        "3055",
+        "3363",
+        "7221",
+        "7901",
+        "9521",
+        "3891",
+        "4326",
+        "3253",
+        "8298",
+        "6336",
+        "1660",
+        "8372",
+        "3802",
+        "8630",
+        "2770",
+        "0313",
+        "2046",
+        "7119",
+        "5572",
+        "9266"
+      ]
+    },
+    "telegram_no_145": {
+      "origin": "MTCI",
+      "date_received": "1942-05-11 15:05–15:12",
+      "dtg_trailer": "1228 C / 10 (10 May 1942, 12:28 GMT+3)",
+      "group_count": 67,
+      "groups": [
+        "3128",
+        "2329",
+        "6363",
+        "8113",
+        "9625",
+        "9371",
+        "8856",
+        "9370",
+        "7874",
+        "2526",
+        "4206",
+        "2517",
+        "0814",
+        "0909",
+        "4142",
+        "7698",
+        "2445",
+        "6490",
+        "0678",
+        "0834",
+        "2466",
+        "9371",
+        "3724",
+        "8552",
+        "6921",
+        "2733",
+        "0109",
+        "7078",
+        "4390",
+        "6097",
+        "1236",
+        "6062",
+        "0716",
+        "9620",
+        "8111",
+        "2443",
+        "4474",
+        "9580",
+        "0298",
+        "0400",
+        "8599",
+        "7241",
+        "8982",
+        "3761",
+        "0158",
+        "3210",
+        "0829",
+        "9572",
+        "8731",
+        "4348",
+        "9675",
+        "0753",
+        "1298",
+        "7849",
+        "5467",
+        "1870",
+        "1307",
+        "3431",
+        "6581",
+        "4688",
+        "0504",
+        "4026",
+        "5280",
+        "3084",
+        "3406",
+        "5952",
+        "2572"
+      ],
+      "cryptanalysis": {
+        "two_digit_ic": 0.00927,
+        "repeated_4digit_groups": [
+          "9371 (Group #6 & Group #22, distance=16=2x8; plus 9370 at Group #8)"
+        ],
+        "same_decade_d1_eq_d3_count": 15,
+        "same_decade_d1_eq_d3_ratio": 0.2239,
+        "p_value_d1_eq_d3": 0.0018
+      }
+    }
+  },
+  "meteorology_1940_sliding_strip_cipher": {
+    "shelfmark": "BCA, 30-10-0-0, 188-289-8",
+    "date": "1940-10-16 / 1940-11-20",
+    "recipient": "British Embassy Air Attaché (Royal Air Force), Ankara",
+    "callsign": "TAB (Ankara Radio, 3000m, 08:15 & 14:15 GMT)",
+    "sample_indicator_key": "BABAA",
+    "base_template": [
+      "İ F N p h",
+      "İ W P p Nh",
+      "İ W P CL V",
+      "T D P CM U",
+      "T D a CH W"
+    ],
+    "babaa_enciphered_template": [
+      "İ F P p h",
+      "İ W P p Nh",
+      "T W P CL V",
+      "T D a CM U",
+      "İ D N CH W"
+    ],
+    "stations": [
+      {
+        "code": "161",
+        "name": "Edirne",
+        "lat": "N 41 40",
+        "lon": "E 26 35",
+        "alt": "42 m"
+      },
+      {
+        "code": "139",
+        "name": "İstanbul",
+        "lat": "N 40 58",
+        "lon": "E 28 50",
+        "alt": "18 m"
+      },
+      {
+        "code": "169",
+        "name": "İzmit",
+        "lat": "N 40 46",
+        "lon": "E 29 56",
+        "alt": "92 m"
+      },
+      {
+        "code": "198",
+        "name": "Sinop",
+        "lat": "N 42 02",
+        "lon": "E 35 10",
+        "alt": "25 m"
+      },
+      {
+        "code": "221",
+        "name": "Trabzon",
+        "lat": "N 41 00",
+        "lon": "E 39 44",
+        "alt": "97 m"
+      },
+      {
+        "code": "134",
+        "name": "Çanakkale",
+        "lat": "N 40 09",
+        "lon": "E 26 24",
+        "alt": "26 m"
+      },
+      {
+        "code": "118",
+        "name": "Eskişehir",
+        "lat": "N 39 47",
+        "lon": "E 30 32",
+        "alt": "796 m"
+      },
+      {
+        "code": "163",
+        "name": "Ankara",
+        "lat": "N 39 57",
+        "lon": "E 32 53",
+        "alt": "907 m"
+      },
+      {
+        "code": "158",
+        "name": "Sivas",
+        "lat": "N 39 45",
+        "lon": "E 37 02",
+        "alt": "1284 m"
+      },
+      {
+        "code": "156",
+        "name": "Erzurum",
+        "lat": "N 39 55",
+        "lon": "E 41 17",
+        "alt": "1954 m"
+      },
+      {
+        "code": "123",
+        "name": "Kayseri",
+        "lat": "N 38 44",
+        "lon": "E 35 30",
+        "alt": "1059 m"
+      },
+      {
+        "code": "155",
+        "name": "Malatya",
+        "lat": "N 38 21",
+        "lon": "E 38 19",
+        "alt": "959 m"
+      },
+      {
+        "code": "184",
+        "name": "Diyarbakır",
+        "lat": "N 37 55",
+        "lon": "E 40 15",
+        "alt": "715 m"
+      },
+      {
+        "code": "199",
+        "name": "Van",
+        "lat": "N 38 28",
+        "lon": "E 43 21",
+        "alt": "1804 m"
+      },
+      {
+        "code": "225",
+        "name": "İzmir",
+        "lat": "N 38 26",
+        "lon": "E 27 10",
+        "alt": "5 m"
+      },
+      {
+        "code": "195",
+        "name": "Antalya",
+        "lat": "N 36 53",
+        "lon": "E 30 44",
+        "alt": "43 m"
+      },
+      {
+        "code": "135",
+        "name": "Konya",
+        "lat": "N 37 53",
+        "lon": "E 32 31",
+        "alt": "1031 m"
+      },
+      {
+        "code": "142",
+        "name": "Ulukışla",
+        "lat": "N 37 33",
+        "lon": "E 34 30",
+        "alt": "1425 m"
+      },
+      {
+        "code": "215",
+        "name": "Adana",
+        "lat": "N 36 59",
+        "lon": "E 35 19",
+        "alt": "30 m"
+      },
+      {
+        "code": "223",
+        "name": "İslahiye",
+        "lat": "N 37 03",
+        "lon": "E 36 37",
+        "alt": "520 m"
+      }
+    ]
+  }
+}
